@@ -1,0 +1,1588 @@
+* {padding: 0; margin: 0;}
+
+header {
+    background-color: rgb(230, 199, 199);
+    height: 100px;
+}
+
+.iconTravelo ul li img {
+    width: 80px;
+    float: left;
+    margin: 10px 15px;
+}
+nav ul {
+    color:#000;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 3px 15px;
+    color: black;
+}
+nav ul li ul { 
+    display: none;
+    background-color: rgb(230, 199, 199);
+    border-radius: 10%;
+    position: absolute;
+    z-index: 1;
+}
+nav ul li i {
+    margin-left: -25px;
+    margin-right: 30px;
+}
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+}
+nav {
+    position: relative;
+    line-height: 55px;
+}
+nav ul li ul li {
+    float: none;
+    position: relative;
+}
+nav ul li:hover { color: whitesmoke;
+    transition: all 0.6s ease 0s;}
+nav ul li a:hover {color: whitesmoke;
+    transition: all 0.6s ease 0s;}
+
+.telNo h3 {
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 8px;
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+
+}
+
+.telNo img {
+    width: 18px;
+    float: right;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.social img {
+    width: 15px;
+    margin-left: 15px;
+    margin-top: 23px;
+    float: right;
+    padding-right: 10px;
+}
+.social img:hover {
+    filter: invert(21%) 
+            sepia(100%) 
+            saturate(7414%) 
+            hue-rotate(359deg) 
+            brightness(94%) 
+            contrast(117%);
+}
+.searchButton img {
+    width: 25px;
+    float: right;
+    background-color: rosybrown;
+    padding: 37px 30px 39.5px 30px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+body {
+    overflow-x: hidden;
+}
+style {
+    background-size: auto;
+}
+.slider {
+    position: relative;
+}
+article .slider .pictures img {
+    width: 100%;
+    height: 700px;
+    filter: brightness(75%);
+    object-fit: cover;
+}
+.slider .indonesia_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.slider .indonesia_text h3 {
+    font-size: 115px;
+    font-weight: 400;
+    font-family: "Nothing You Could Do",  cursive;
+    line-height: .5;
+    color: white;
+}
+.slider .indonesia_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: "Rubik", sans-serif;
+    line-height: 30px;
+}
+
+.slider .buttonSlider .prev {
+    height: 120px;
+    width: 50px;
+    color: white;
+    line-height: 120px;
+    background: rgba(255,255,255,.2);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .4s ease 0s;
+}
+.slider .buttonSlider .prev:hover {
+    background: white;
+    color: black;
+}
+.slider .buttonSlider .next {
+    right: 0;
+    height: 120px;
+    width: 50px;
+    color: white;
+    line-height: 120px;
+    background: rgba(255,255,255,.2);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .4s ease 0s;
+}
+.slider .buttonSlider .next:hover {
+    background: white;
+    color: black;
+}
+
+.boxbutton {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 45px;
+    border-radius: 4px;
+    background-color: #1ec6b6;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    left: 70%;
+}
+.boxbutton:hover {
+    background-color: #FF4A52;
+    color: white;
+}
+
+article .input {
+    background-color: lavender;
+    padding: 50px;
+    margin-top: -5px;
+    box-sizing: border-box;
+}
+.input .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.input .container .area {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box;
+    align-items: stretch;
+    align-content: flex-end;
+}
+
+.area .text {
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1150px;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.input .text h3 {
+    font-size: 20px;
+    color: rgb(188, 103, 188);
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: "Rubik", sans-serif;
+    float: left;
+    margin-top: 15px;
+}
+
+.input .inputArea {
+    -webkit-box-flex: 0;
+    flex: 0 0 75%;
+    max-width: 75%;
+    min-height: 1px;
+    position: relative;
+    display: block;
+}
+
+.input .inputArea form {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+.search .inputText {
+    width: 180px;
+    display: block;
+}
+.search .inputText input {
+    width: 160px;
+    padding-left: 20px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(188, 103, 188);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Rubik", sans-serif;
+    overflow: visible;
+}
+.search .inputDate {
+    width: 180px;
+}
+.search .inputDate input {
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(188, 103, 188);
+    padding-left: 20px;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+    margin-right: 30px;
+}
+.search .travelType {
+    width: 190px;
+    display: block;
+}
+.search .travelType select {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #aab1b7;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    padding-left: 20px;
+    background: transparent;
+    border: 2px solid rgb(188, 103, 188);
+    border-radius: 4px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.search .travelType .displaySelect {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #aab1b7;
+    font-weight: 300;
+    font-family: "Rubik", sans-serif;
+    background-color: transparent;
+    border: 2px solid rgb(188, 103, 188);
+    border-radius: 4px;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    position: relative;
+    padding-left: 18px;
+    padding-right: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.search .travelType .displaySelect ul {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px rgb(68 68 68 / 11%);
+    opacity: 0;
+    transform: scale(0.75) translateY(-21px);
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9;
+    display: block;
+}
+.search .srcButton button {
+    background-color: #FF4A52;
+    color: #fff;
+    display: inline-block;
+    padding: 0px 50px;
+    height: 53px;
+    line-height: 50px;
+    margin-right: 20px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.3s;
+    cursor: pointer;
+    overflow: visible;
+}
+.search .srcButton button:hover {
+    background-color: #1ec6b6;
+
+}
+
+
+/*Popular Destination Area*/
+.destination {
+    padding-top: 140px;
+    padding-bottom: 120px;
+}
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+}
+.container .justify {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .justify .text {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 0 15px;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 65px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+}
+.container .justify .text h3 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #040e27;
+    z-index: 0;
+    padding-bottom: 7px;
+    display: block;
+}
+.container .justify .text p {
+    display: block;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    color: #7a838b;
+    line-height: 27px;
+    font-weight: 500;
+}
+.container .imagegalery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagegalery .pictures {
+    max-width: 28.333%;
+    flex: 33.333%;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.pictures .destinasi {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+.pictures .destinasi:hover {
+    transform: translateY(-15px);
+}
+.destinasi .thumb img{
+    border-radius: 5px;
+    vertical-align: middle;
+    filter: brightness(70%);
+}
+.destinasi .country_text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    z-index: 7;
+}
+.destinasi .country_text p {
+    font-size: 22px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    transition: all .3s ease 0s;
+    margin-bottom: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.destinasi .country_text p a {
+    background-color: #1ec6b6;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 0 12px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+}
+.destinasi:hover p {
+    color: #FF4A52;
+    transition: all .3s ease 0s;
+}
+.destinasi:hover .flex a {
+    background-color: #FF4A52;
+}
+
+
+/*Bagian Subscription*/
+.newsletter {
+    position: relative; 
+    background-image: url(images/bg_newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+}
+.newsletter::before {
+    position: absolute;
+    background-color: #040e27;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.6;
+}
+.newsletter .container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container .columnWidth {
+    max-width: 85%;
+    width: 100%;
+    flex: 85%;
+    position: relative;
+    padding: 0 15px;
+
+}
+.container .center {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.center .allText {
+    display: flex;
+    flex-wrap: wrap;
+}
+.allText .Subscribe {
+    flex: 0 0 45.667%;
+    max-width: 45.667%;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.allText .Subscribe h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+}
+.allText .Subscribe p {
+    color: #f8f9fa;
+    line-height: 28px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+.allText .inputSubscribe {
+    flex: 0 0 54.333%;
+    max-width: 54.333%;
+    position: relative;
+    width: 100%;
+}
+.inputSubscribe .displaySubs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.displaySubs .email {
+    max-width: 60%;
+    flex: 0 0 60%;
+    width: 100%;
+    margin-right: 40px;
+    position: relative;
+}
+.email input {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 16px;
+    overflow: visible;
+}
+.inputSubscribe .subsButton {
+    max-width: 30%;
+    flex: 0 0 30%;
+}
+.subsButton button {
+    width: 100%;
+    color: white;
+    background-color: #FF4A52;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    padding: 13px 10px;
+    border: none;
+    line-height: 1.5;
+}
+.subsButton button:hover {
+    background-color: #1ec6b6;
+    color: #fff;
+}
+
+
+/*Bagian Popular Places*/
+.popularPlaces {
+    background-color: #f8f9fa;
+    padding-bottom: 150px;
+    padding-top: 145px;
+    font-family: "Rubik", sans-serif;
+}
+.popularPlaces .container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.popularPlaces .container .centerText {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.centerText .displayText {
+    position: relative;
+    padding: 0px 15px;
+    width: 100%;
+    max-width: 50%;
+    margin-bottom: 70px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.displayText h3 {
+    font-size: 40px;
+    color: #040e27;
+    font-weight: 500;
+    padding-bottom: 12px;
+    position: relative;
+    z-index: 0;
+    line-height: 1.2em;
+}
+.displayText p {
+    font-size: 16px;
+    color: #7a838b;
+    line-height: 30px;
+    font-weight: 500;
+}
+.container .placelist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.placelist .column {
+    width: 100%;
+    flex: 33.333%;
+    max-width: 28.333%;
+    padding: 0px 20px;
+}
+.column .place {
+    background-color: lavender;
+    margin-bottom: 40px;
+    transition: all 0.4s ease 0s;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.column .place:hover {
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+}
+.place .images {
+    overflow: hidden;
+}
+.images img {
+    width: 100%;
+}
+.images a {
+    position: absolute;
+    background-color: #1ec6b6;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 19px;
+    transition: all 0.4s ease 0s;
+    margin-left: -330px;
+    margin-top: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.place:hover .images a {
+    background-color: #FF4A52;
+    color: #fff;
+}
+.place .country {
+    padding: 28px 20px;
+    font-family: "Rubik", sans-serif;
+}
+.country a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 200;
+}
+.country h3 {
+    font-size: 24px;
+    transition: all 0.4s ease 0s;
+    margin-bottom: 10px;
+}
+.place:hover .country h3 {
+    color: #FF4A52;
+}
+.place p {
+    color: #7a838b;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.country .review {
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+
+}
+.review .fa-star {
+    color: orange;
+}
+.review a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #7a838b;
+    margin-left: 7px;
+}
+.review .time {
+    font-size: 14px;
+    color: #7a838b;
+    font-weight: 300;
+}
+.placeButton {
+    display: flex;
+    flex-wrap: wrap;
+}
+.placeButton .moreplace {
+    width: 100%;
+    position: relative;
+    padding: 0 15px;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.moreplace .click {
+    text-align: center;
+    margin-top: 40px;
+}
+.click button {
+    color: white;
+    background-color: #FF4A52;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    border-radius: 4px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: none;
+}
+.click button:hover {
+    background-color: #1ec6b6;
+    color: white;
+}
+
+/*Bagian Video*/
+.enjoyVideo {
+    background-image: url(images/bg_enjoyVideo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+    background-position: center;
+    position: relative;
+    ;
+}
+.enjoyVideo .container {
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+.container .textArea {
+    display: flex;
+    flex-wrap: wrap;
+}
+.textArea .text {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.textArea .text h3 {
+    font-size: 85px;
+    color: white;
+    font-family: "Nothing You Could Do";
+    font-weight: 300;
+    line-height: 110px;
+    margin-bottom: 60px;
+}
+.text .video a {
+    width: 90px;
+    height: 90px;
+    background-color: #1ec6b6;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    transition: all 0.4s ease 0s;
+    line-height: 90px;
+}
+.text .video a:hover {
+    background-color: #FF4A52;
+    color: white;
+}
+
+/*Bagian 3 Column*/
+.column3 {
+    padding: 175px 0 123px 0;
+}
+.column3 .container {
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    width: 100%;
+    position: relative;
+    padding: 0 15px;
+    max-width: 30%;
+    flex: 0 0 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}   
+.container .box h3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 40px 0 15px 0;
+}
+.container .box p {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* Bagian Quotes */
+.quotes {
+    position: relative;
+    padding: 110px 0 120px 0;
+    background-color: rgb(250, 246, 241);
+    background-position: center;
+}
+.quotes .container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+}
+.container .ketengah {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+    display: block;
+}
+.ketengah .testimoni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-pack: center;
+}
+.testimoni .position {
+    width: 100%;
+    position: relative;
+    padding: 0 15px;
+    margin-bottom: 25px;
+    max-width: 60%;
+    flex: 60%;
+}
+.position .image {
+    width: 100px;
+    height: 100px;
+    margin: auto auto 15px auto;
+    position: relative;
+}
+.position .image img {
+    border-radius: 50%;
+    width: 100%;
+    display: block;
+}
+.position p {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.position h3 {
+    font-size: 16px;
+    color: #7a838b;
+    text-align: center;
+    font-weight: 350;
+}
+.ketengah .dots {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+.dots .dot {
+    background-color: #7a838b;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.dots .dot:hover {
+    background-color: #FF4A52;
+}
+
+/* Bagian Recent Trips */
+.trips {
+    padding: 165px 0 127px 0;
+}
+.trips .container {
+    width: 100%;
+    padding: 0 15px;
+    font-family: "Rubik", sans-serif;
+}
+
+.container .recenttrips {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    
+}
+.recenttrips h3 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1em;
+    position: relative;
+    margin-bottom: 60px;
+}
+.container .tripcolumn {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tripcolumn .kolom {
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    flex: 31%;
+    max-width: 33%;
+}
+.kolom .pics {
+    overflow: hidden;
+    border-radius: 6px;
+}
+.kolom .pics img {
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.kolom .text {
+    padding-top: 18px;
+    -webkit-text-size-adjust: 100%;
+}
+.kolom .text p {
+    color: #7a838b;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+}
+.kolom .text a {
+    text-decoration: none;
+    color: #000;
+}
+.kolom .text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 10px;
+    transition: all 0.4s ease 0s;
+}
+.tripcolumn .kolom:hover h3 {
+    color: #FF4A52;
+}
+
+/* Bagian Footer */
+footer {
+    background-color: rgb(230, 199, 199);
+    position: relative;
+    z-index: 0;
+    display: block;
+    font-family: "Rubik", sans-serif;
+}
+footer .atas {
+    padding: 120px 0 135px 0;
+
+}
+.atas .column4 {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+}
+.column4 .part1 {
+    width: 180%;
+    max-width: 30%;
+    flex: 0 0 30%;
+    padding: 0 15px;
+    position: relative;
+}
+.part1 .logo {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+}
+.part1 .logo img {
+    width: 100px;
+    height: 100px;
+}
+.part1 p {
+    color: rgb(2, 2, 48);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    list-style: none;
+    transition: all 0.4s ease;
+}
+.part1 .forHover:hover {
+    color: #FF4A52;
+}
+.part1 .sosmed {
+    margin-top: 50px;
+}
+.sosmed ul {
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+.part1 ul li {
+    font-size: 16px;
+    color: rgb(2, 2, 48);
+    line-height: 36px;
+    display: inline-block;
+}
+.sosmed ul li a {
+    color: rgb(2, 2, 48);
+    width :30px;
+    margin-right: 12px;
+    line-height: 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
+.part1 .sosmed ul li a:hover {
+    color: red;
+}
+.column4 .part2 {
+    width: 100%;
+    flex: 0 0 15%;
+    max-width: 15%;
+    position: relative;
+    padding: 0 15px;
+}
+.part2 h3 {
+    font-size: 26px;
+    color: #000;
+    font-weight: 550;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.part2 ul {
+    position: relative;
+    top: -15;
+}
+.part2 ul li {
+    font-size: 16px;
+    color: rgb(2, 2, 48);
+    list-style: none;
+    line-height: 36px;
+}
+.part2 ul li a {
+    text-decoration: none;
+    color: rgb(2, 2, 48);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.part2 ul li a:hover {
+    color: #FF4A52;
+}
+.column4 .part3 {
+    width: 100%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+    position: relative;
+}
+.part3 h3 {
+    font-size: 26px;
+    color: rgb(2, 2, 48);
+    font-weight: 550;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.part3 ul {
+    position: relative;
+    top: -14;
+}
+.part3 ul li {
+    float: left;
+    color: rgb(2, 2, 48);
+    font-size: 16px;
+    list-style: none;
+    line-height: 36px;
+    width: 50%;
+}
+.part3 ul li a {
+    color: rgb(2, 2, 48);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.part3 ul li a:hover {
+    color: #FF4A52;
+}
+.column4 .part4 {
+    max-width: 22%;
+    flex: 0 0 22%;
+}
+.part4 h3 {
+    font-size: 26px;
+    color: rgb(2, 2, 48);
+    margin-bottom: 70px;
+    font-weight: 550;
+    margin-top: 20px;
+}
+.part4 .ig_pics {
+    margin: -7.5px -12px 0 0;
+}
+.ig_pics .post {
+    float: left;
+}
+.ig_pics .post img {
+    border-radius: 6px;
+}
+.footer .container .bawah {
+    width: 100%;
+}
+.bawah .text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+.bawah .copyrightarea .line {
+    border-bottom: 1px solid black;
+}
+.bawah .text a {
+    color: red;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/* Bagian Contact */
+.bagianIsi {
+    padding: 100px 0;
+    font-family: "Rubik", sans-serif;
+}
+.bagianIsi .maps {
+    margin-bottom: 50px;
+}
+.bagianIsi .maps iframe {
+    width: 100%;
+    height: 700px;
+}
+.bagianIsi .getInTouch {
+    display: flex;
+    flex-wrap: wrap;
+}
+.getInTouch .text {
+    width: 100%;
+    flex: 100%;
+    padding-bottom: 40px;
+}
+.getInTouch .text h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.getInTouch .bagianKiri {
+    width: 60%;
+}
+.bagianKiri form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bagianKiri .textinput .message {
+    width: 100%;
+    flex: 100%;
+}
+.textinput .message textarea {
+    width: 95%;
+    height: 250px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    border: 1px solid #aab1b7;
+    resize: vertical;
+}
+.textinput .name {
+    width: 30%;
+    flex: 30%;
+    border-color: #aab1b7;
+}
+.textinput .name input {
+    width: 90%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #aab1b7;
+}
+.textinput .emailAddress {
+    width: 30%;
+    flex: 30%;
+    text-align: right;
+}
+.textinput .emailAddress input {
+    width: 90%;
+    padding: 15px 10px;
+    font-size: 16px;
+    margin-right: 9px;
+    border: 1px solid #aab1b7;
+}
+.textinput .subject {
+    width: 100%;
+    flex: 100%;
+    margin-top: 30px;
+}
+.textinput .subject input {
+    width: 96%;
+    padding: 15px 9px;
+    font-size: 16px;
+    border: 1px solid #aab1b7;
+}
+.bagianKiri .send {
+    width: 100%;
+    flex: 100%;
+    margin-top: 50px;
+}
+.bagianKiri .send button {
+    width: 130px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1ec6b6;
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.bagianKiri .send button:hover {
+    background-color: #FF4A52;
+}
+.bagianKanan {
+    width: 30%;
+    flex: 30%;
+}
+.bagianKanan .margin {
+    margin-left: 160px;
+}
+.bagianKanan .information {
+    display: flex;
+    flex-wrap: wrap;
+}
+.information i {
+    font-size: 30px;
+    color: #7a838b;
+    margin-right: 10px;
+}
+.information h2 {
+    font-size: 18px;
+    color: #000;
+    margin-left: 10px;
+}
+.information p {
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+/* Bagian Blog */
+.blogPart {
+    padding: 100px 0px;
+    font-family: "Rubik", sans-serif;
+}
+.blogPart .bagian2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bagian2 .bagianKiri {
+    width: 60%;
+    flex: 60%;
+}
+.bagian2 .bagianKiri .part {
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bagianKiri .part .foto {
+    margin-bottom: 60px;
+}
+.bagianKiri .part .foto img {
+    width: 100%;
+}
+.bagianKiri .part .foto .date {
+    background-color: #FF4A52;
+    width: 85px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 35px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.bagianKiri .part .foto .date:hover {
+    background-color: transparent;
+    color: #000;
+}
+.part .foto .date h2 {
+    font-size: 26px;
+    font-weight: 900;
+}
+.part .foto .date p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.bagianKiri .part .text {
+    padding-left: 40px;
+    padding-right: 50px;
+    float: left;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 10px 0 rgba(221, 221, 221, 0.646);
+}
+.bagianKiri .part .text h2 {
+    font-weight: 800;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.bagianKiri .part .text h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.bagianKiri .part .text .categ {
+    width: 140px;
+    float: left;
+    border-right: 1px solid black;
+    margin-right: 20px
+}
+.bagianKiri .part .text p {
+    color: #666;
+}
+
+.getInTouch .bagianKanan {
+    width: 40%;
+    font-family: "Rubik", sans-serif;
+}
+.bagianKanan  .searchKeyword {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.searchKeyword input {
+    background-color: #fff;
+    border: none;
+    height: 45px;
+    width: 80%;
+    flex: 80%;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.searchKeyword i {
+    background-color: #fff;
+    color: #aab1b7;
+    padding: 14px 25px 15px 15px;
+    cursor: pointer;
+}
+.searchKeyword button {
+    width: 100%;
+    margin-top: 15px;
+    height: 45px;
+    background-color: #1ec6b6;
+    border: none;
+    transition: all 0.2s ease;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.searchKeyword button:hover {
+    background-color: #FF4A52;
+    color: #fff;
+}
+.bagianKanan .category {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.category h2 {
+    border-bottom: 1px solid #aab1b7;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.category p {
+    border-bottom: 1px solid #aab1b7;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #aab1b7;
+}
+.category h3 {
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 10px;
+    color: #aab1b7;
+}
+.category p:hover {
+    color: #FF4A52;
+}
+.category h3:hover {
+    color: #FF4A52;
+}
+.bagianKanan .rPost {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    margin-left: 15px;
+}
+.rPost h2 {
+    border-bottom: 1px solid #aab1b7;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.rPost .post {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.rPost .post img {
+    margin-right: 20px;
+}
+.rPost .post .text {
+    align-self: center;
+}
+.rPost .post .text h3 {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.rPost .post .text h3:hover {
+    color: #FF4A52;
+}
+.rPost .post .text p {
+    color: #7a838b;
+}
+.bagianKanan .tagClouds {
+    display: inline-block;
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    margin-left: 15px;
+}
+.tagClouds h2 {
+    border-bottom: 1px solid #aab1b7;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.tagClouds a {
+    color: #666;
+    background-color: white;
+    padding: 6px 30px;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #d8dee3;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+.tagClouds a:hover {
+    color: #FF4A52;
+}
+.bagianKanan .igFeeds {
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.igFeeds h2 {
+    border-bottom: 1px solid #aab1b7;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.igFeeds img {
+    margin: 10px 10px;
+    align-items: center;
+}
+.bagianKanan .newsletterSubs {
+    padding: 30px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    margin-left: 15px;
+}
+.newsletterSubs h2 {
+    border-bottom: 1px solid #aab1b7;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.newsletterSubs input {
+    width: 96%;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d8dee3;
+}
+.newsletterSubs button {
+    width: 100%;
+    height: 45px;
+    background-color: #1ec6b6;
+    border: none;
+    transition: all 0.2s ease;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.newsletterSubs button:hover {
+    background-color: #FF4A52;
+    color: white;
+}
